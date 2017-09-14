@@ -13,7 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.chen.test1.bean.OperateLog;
-import com.chen.test1.dao.OperLogDao;
+import com.chen.test1.dao.OperLogDAO;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -29,7 +29,7 @@ import lombok.extern.slf4j.Slf4j;
 public class OperLogAspect {
 
 	@Autowired
-	private OperLogDao operLogDao;
+	private OperLogDAO operLogDao;
 
 	@Autowired
 	private HttpServletRequest request;

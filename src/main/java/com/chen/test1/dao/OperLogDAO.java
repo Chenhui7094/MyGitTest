@@ -2,6 +2,7 @@ package com.chen.test1.dao;
 
 import org.apache.ibatis.annotations.InsertProvider;
 import org.apache.ibatis.jdbc.SQL;
+import org.springframework.stereotype.Component;
 
 import com.chen.test1.bean.OperateLog;
 
@@ -11,7 +12,7 @@ import com.chen.test1.bean.OperateLog;
  * @author chenhuihui
  * @time 2017年9月13日下午2:30:20
  */
-public interface OperLogDao {
+public interface OperLogDAO {
 
 	@InsertProvider(type = OperLogSqlProvider.class, method = "insertOperLog")
 	int insertOperLog(OperateLog operLog);

@@ -11,7 +11,7 @@ import com.alibaba.fastjson.support.config.FastJsonConfig;
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
 
 @SpringBootApplication
-@MapperScan(basePackages = { "com.birdsh.**.dao" })
+@MapperScan(basePackages = { "com.chen.**.*" })
 public class MyGitTestApplication {
 
 	public static void main(String[] args) {
