@@ -8,6 +8,7 @@
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
 		<config>java:com.chen.MyGitTestApplication</config>
+		<config>src/main/java/com/chen/MyGitTestApplication.java</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
