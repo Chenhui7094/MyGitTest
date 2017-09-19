@@ -7,8 +7,8 @@
 	</configSuffixes>
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
-		<config>java:com.chen.MyGitTestApplication</config>
 		<config>src/main/java/com/chen/MyGitTestApplication.java</config>
+		<config>java:com.chen.SpringBootAopApplication</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
